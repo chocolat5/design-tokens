@@ -65,7 +65,7 @@ picture {
   * Global
   * ======================================== */
 html {
-  font-size: 62.5%;
+  font-size: 100%; /* 1rem = 16px */
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
@@ -81,7 +81,7 @@ body {
   word-wrap: break-word;
   color: var(--c-text);
   background: var(--c-bg);
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 400;
   font-family: var(--font-family);
   line-height: 1.75;
